@@ -1,13 +1,13 @@
 import { Component, ReactNode } from 'react'
 import './Selector.css'
 
-interface ISelector {
+type SelectorProps = {
   children: ReactNode;
   isDefaultStyle?: boolean;
   onChange?: () => void;
 }
 
-class Selector extends Component <ISelector> {
+class Selector extends Component <SelectorProps> {
   render() {
     return <select
       className={this.props.isDefaultStyle ? "selector__wide" : "selector__narrow"}

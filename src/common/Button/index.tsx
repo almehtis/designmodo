@@ -1,7 +1,7 @@
 import { Component, ReactNode } from 'react'
 import './Button.css'
 
-interface IButton {
+type ButtonProps = {
   children?: ReactNode;
   isSubmitButton?: boolean;
   onClick?: () => void;
@@ -10,7 +10,7 @@ interface IButton {
   src?: string;
 }
 
-class Button extends Component <IButton> {
+class Button extends Component <ButtonProps> {
   render() {
     return <button
       className={this.props.isSubmitButton ? "submit-button" : "text-format-button"}

@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import './Input.css'
 
-interface IInput {
+type InputProps = {
   onChange: () => void;
   type?: string;
   src: string;
@@ -11,7 +11,7 @@ interface IInput {
   value: string;
 }
 
-class Input extends Component <IInput> {
+class Input extends Component <InputProps> {
   render() {
     return <div className="input-block">
       <img src={this.props.src} />
