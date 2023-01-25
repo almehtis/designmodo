@@ -19,11 +19,6 @@
   display: none;
 }
 
-/* .editable-area {
-  font-size: 14px;
-  word-wrap: break-word;
-} */
-
 .page:focus {
   outline: none;
 }

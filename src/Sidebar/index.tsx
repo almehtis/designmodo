@@ -193,7 +193,7 @@ class Sidebar extends Component {
             </Selector>
           </div>
 
-          <Input onChange={this.changeFontSize} src="/icons/fontSize.svg" value={this.state.fontSize} />
+          <Input onChange={this.changeFontSize} src="./icons/fontSize.svg" value={this.state.fontSize} />
         </div>
 
         <div className="font-color-and-preview">
@@ -211,15 +211,15 @@ class Sidebar extends Component {
         </div>
 
         <div className="letter-spacing-and-line-height">
-          <Input isLineHeight src="/icons/lineHeight.svg" onChange={this.changeLineHeight} value={this.state.lineHeight} />
-          <Input isLetterSpacing src="/icons/letterSpacing.svg" onChange={this.changeLetterSpacing} value={this.state.letterSpacing} />
+          <Input isLineHeight src="./icons/lineHeight.svg" onChange={this.changeLineHeight} value={this.state.lineHeight} />
+          <Input isLetterSpacing src="./icons/letterSpacing.svg" onChange={this.changeLetterSpacing} value={this.state.letterSpacing} />
         </div>
 
         <div className="text-formating">
-          <Button src="/icons/left.svg" onClick={this.aligntext} />
-          <Button src="/icons/center.svg" onClick={this.aligntext} />
-          <Button src="/icons/right.svg" onClick={this.aligntext} />
-          <Button src="/icons/justify.svg" onClick={this.aligntext} />
+          <Button src="./icons/left.svg" onClick={this.aligntext} />
+          <Button src="./icons/center.svg" onClick={this.aligntext} />
+          <Button src="./icons/right.svg" onClick={this.aligntext} />
+          <Button src="./icons/justify.svg" onClick={this.aligntext} />
         </div>
 
         <Button isSubmitButton onClick={this.applyChanges} title="Apply Changes" type="submit" />
