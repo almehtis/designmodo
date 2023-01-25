@@ -1,0 +1,29 @@
+.editor {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.page {
+  background-color: #ffffff;
+  padding: 30px;
+  height: 86.5%;
+  width: 560px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.page::-webkit-scrollbar {
+  display: none;
+}
+
+/* .editable-area {
+  font-size: 14px;
+  word-wrap: break-word;
+} */
+
+.page:focus {
+  outline: none;
+}

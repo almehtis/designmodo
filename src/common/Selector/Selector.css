@@ -1,0 +1,23 @@
+.selector__wide {
+  background-color: #ffffff;
+  border: 1px solid #E8ECF0;
+  padding: 5px 15px 5px 10px;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+}
+
+.selector__narrow {
+  border: none;
+  padding: 5px 12px 5px 12px;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("src/assets/dropdown.svg") no-repeat 95% 50%;
+}

@@ -1,0 +1,7 @@
+.layout {
+  background-color: #F4F4F4;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  height: max-content;
+  width: 100%;
+}
